@@ -1,0 +1,3 @@
+/Users/test/CLionProjects/моя лаба number8/cmake-build-debug/CMakeFiles/__number8.dir
+/Users/test/CLionProjects/моя лаба number8/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/test/CLionProjects/моя лаба number8/cmake-build-debug/CMakeFiles/rebuild_cache.dir

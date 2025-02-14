@@ -1,0 +1,67 @@
+#include <iostream>
+#include <math.h>
+#include <cmath>
+
+using namespace std;
+
+float first(float x) {
+    return sqrt(exp(x) - 1);
+}
+
+float second(float x) {
+    return (exp(x) * sin(x));
+}
+
+float third(float x) {
+    return ((x * x - 1) * (pow(10, - 2 * x)));
+}
+
+float calculate(float a, float b, float accuracy, float(*func)(float))
+{
+    int n = 100;
+    float answer1 = 0.0;
+    float answer2 = 0.0;
+    do
+    {
+        answer1 = func(a) + func(b);
+        float h = (b-a)/n;
+        for (float j = a + h; j < b; j += 2 * h)
+            answer1 += 4 * func(j);
+        for (float j = a + 2 * h; j < b; j += 2 * h)
+            answer1 += 2 * func(j);
+        answer1 *= h / 3.;
+
+        n += 100;
+
+        answer2 = func(a) + func(b);
+        h = (b-a)/n;
+        for (float j = a + h; j < b; j += 2 * h)
+            answer2 += 4 * func(j);
+        for (float j = a + 2 * h; j < b; j += 2 * h)
+            answer2 += 2 * func(j);
+        answer2 *= h / 3.;
+
+        n += 100;
+    }
+    while (accuracy < abs(answer1 - answer2));
+    return answer2;
+}
+
+int main()
+{
+    setlocale(LC_ALL, "Russian");
+
+    float accuracy;
+    cout << "Введите точность: " << endl;
+    cin >> accuracy;
+    while (accuracy > 0.1 && accuracy < 0.0000001) {
+        cout << "Точность выходит за рамки условия. Введите точность: " << endl;
+        cin >> accuracy;
+    }
+    float (*functions[3])(float)  = {first, second, third};
+    float* a = new float[3]{0.2, 0.0, 0.0};
+    float* b = new float[3]{2.1, M_PI) / 2., 0.5};
+    for (int i = 0; i < 3; i++)
+        cout << i+1 << " integral: " << calculate(a[i], b[i], accuracy, functions[i]) << endl;
+    return 0;
+}

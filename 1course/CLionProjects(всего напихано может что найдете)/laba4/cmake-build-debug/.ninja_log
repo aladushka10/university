@@ -1,0 +1,8 @@
+# ninja log v5
+3	890	1679525070004485657	CMakeFiles/laba3rkpp.dir/Truck.cpp.o	691ecfd6e915b424
+4	909	1679525070023150857	CMakeFiles/laba3rkpp.dir/TrailerTruck.cpp.o	61132e21fe51516d
+3	912	1679525070025991204	CMakeFiles/laba3rkpp.dir/Tipper.cpp.o	dc03531234ea82a2
+4	917	1679525070031346154	CMakeFiles/laba3rkpp.dir/Trucks.cpp.o	4b3db3a65ffe727c
+4	926	1679525070043239116	CMakeFiles/laba3rkpp.dir/Van.cpp.o	32e3236040fa6d6b
+894	1634	1679525070751304480	CMakeFiles/laba3rkpp.dir/Composite.cpp.o	5693c7e9130740b2
+6	706	1679525201278066779	CMakeFiles/laba3rkpp.dir/main.cpp.o	8c448d0b49f0b865

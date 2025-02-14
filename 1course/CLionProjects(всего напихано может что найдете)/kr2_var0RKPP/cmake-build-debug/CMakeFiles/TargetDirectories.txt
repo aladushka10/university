@@ -1,0 +1,3 @@
+/Users/test/CLionProjects/kr2_var0RKPP/cmake-build-debug/CMakeFiles/kr2_var0RKPP.dir
+/Users/test/CLionProjects/kr2_var0RKPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/test/CLionProjects/kr2_var0RKPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/Users/test/CLionProjects/complexnumber/cmake-build-debug/CMakeFiles/complexnumber.dir
+/Users/test/CLionProjects/complexnumber/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/test/CLionProjects/complexnumber/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/Users/test/CLionProjects/kr.krug/cmake-build-debug/CMakeFiles/kr_krug.dir
+/Users/test/CLionProjects/kr.krug/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/test/CLionProjects/kr.krug/cmake-build-debug/CMakeFiles/rebuild_cache.dir

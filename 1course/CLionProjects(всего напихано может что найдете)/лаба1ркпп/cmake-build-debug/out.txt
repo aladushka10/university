@@ -1,0 +1,49 @@
+4
+121
+3
+Ivanov Ivan Ivanovich
+Matskevich Vadim Vladimirovich
+Matveev Gennadiy Vasylevich
+Highest mathematics and programming
+2030
+Количество экземпляров: 1
+999
+1
+Roflo Evgeniy Evgenievich
+How to become a clown
+2019
+Количество экземпляров: 3
+
+
+4
+121
+3
+Ivanov Ivan Ivanovich
+Matskevich Vadim Vladimirovich
+Matveev Gennadiy Vasylevich
+Highest mathematics and programming
+2030
+Количество экземпляров: 1
+999
+1
+Sladkiy Evgeniy Leonidovich
+How to become a clown
+2019
+Количество экземпляров: 3
+
+
+Search by title: 
+999
+1
+Sladkiy Evgeniy Leonidovich
+How to become a clown
+2019
+Количество экземпляров: 3
+
+Search by name: 
+999
+1
+Sladkiy Evgeniy Leonidovich
+How to become a clown
+2019
+Количество экземпляров: 3

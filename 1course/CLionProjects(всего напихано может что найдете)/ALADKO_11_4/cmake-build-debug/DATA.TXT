@@ -1,0 +1,6 @@
+Mathematics;Andrey;9;
+Philosophy;Nastya;10;
+Philosophy;Andrey;4;
+History;Kirill;7;
+History;Andrey;6;
+Geography;Nastya;10;

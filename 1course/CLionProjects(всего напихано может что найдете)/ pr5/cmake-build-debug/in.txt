@@ -1,0 +1,3 @@
+ AnyTXT Searcher is a free powerful local document & text search application, just like a local disk Google search engine, and much faster than Windows search and Windows findstr command. Anytxt is your best free desktop file content full-text search engine. 
+
+  AnyTXT Searcher has a powerful document parsing engine, which extracts the text of commonly used documents without installing any other software, and combines the built-in high-speed indexing system to store the text’s metadata. You can quickly find any words on your computer with Anytxt. It works perfectly on Windows 11, 10, 8, 7, Vista, XP, 2003, 2008, 2012, 2016, 2019, 2022, etc.

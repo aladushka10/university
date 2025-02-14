@@ -1,0 +1,3 @@
+/Users/test/CLionProjects/pr_6_algotithm/cmake-build-debug/CMakeFiles/pr_6_algotithm.dir
+/Users/test/CLionProjects/pr_6_algotithm/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/test/CLionProjects/pr_6_algotithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,14 @@
+Minsk:
+Victoria 3
+Prezident 5
+Kreker 4
+Brest:
+Treval 0
+Victoria:
+Grodno
+Minsk
+Brest 0
+Grodno 2
+Minsk 3
+Minsk 4
+Minsk 5

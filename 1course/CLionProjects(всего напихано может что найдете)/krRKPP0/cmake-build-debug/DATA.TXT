@@ -1,0 +1,8 @@
+Minsk;Victoria;3;
+Grodno;Victoria;2;
+
+Brest;Treval;0;
+
+
+Minsk;Prezident;5;
+Minsk;Kreker;4;

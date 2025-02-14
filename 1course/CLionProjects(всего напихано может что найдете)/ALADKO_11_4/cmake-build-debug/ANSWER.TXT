@@ -1,0 +1,10 @@
+Andrey with marks: 9
+Andrey:
+Средний балл: 6.33333
+3:
+4 Philosophy
+6 History
+7 History
+9 Mathematics
+10 Geography
+10 Philosophy

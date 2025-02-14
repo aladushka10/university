@@ -1,0 +1,3 @@
+/Users/test/CLionProjects/laba3rkpp/cmake-build-debug/CMakeFiles/laba3rkpp.dir
+/Users/test/CLionProjects/laba3rkpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/test/CLionProjects/laba3rkpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

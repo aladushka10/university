@@ -1,0 +1,3 @@
+/Users/test/CLionProjects/laba5dubl23774384539340347/cmake-build-debug/CMakeFiles/laba5dubl23774384539340347.dir
+/Users/test/CLionProjects/laba5dubl23774384539340347/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/test/CLionProjects/laba5dubl23774384539340347/cmake-build-debug/CMakeFiles/rebuild_cache.dir
