@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /Users/test/CLionProjects/WEB/lab2 Select CMakeLists.txt

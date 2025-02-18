@@ -1,0 +1,3 @@
+/Users/test/Documents/2 course/4 сем/оси/laba2_posix/cmake-build-debug/CMakeFiles/laba2_posix.dir
+/Users/test/Documents/2 course/4 сем/оси/laba2_posix/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/test/Documents/2 course/4 сем/оси/laba2_posix/cmake-build-debug/CMakeFiles/rebuild_cache.dir

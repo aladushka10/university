@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Storage App<</title>
+</head>
+<body>
+
+<div>
+    <input onclick="addPlantInfo();" value="Ввод информации о растении" type="button">
+    <input onclick="deletePlantInfo();" value="Удаление информации о растении" type="button">
+    <input onclick="getPlantInfo();" value="Получение информации о растении" type="button">
+    <input onclick="listAllPlants();" value="Перечень всех растений" type="button">
+</div>
+
+<div id="output"></div>
+
+<script src="botanical_garden.js"></script>
+
+<script>
+
+    const Storage = new THashStorage();
+
+    function addPlantInfo() {
+        const plantName = prompt("Введите название растения:");
+        const plantDescription = prompt("Введите описание ухода за растением:");
+        if(plantName !== null && plantDescription !== null)
+            Storage.AddValue(plantName, plantDescription);
+    }
+
+    function deletePlantInfo() {
+        const plantNameToDelete = prompt("Введите название растения для удаления:");
+        if(plantNameToDelete !== null)
+            Storage.DeleteValue(plantNameToDelete);
+    }
+
+    function getPlantInfo() {
+        const plantNameToGet = prompt("Введите название растения для получения информации:");
+        if(plantNameToGet !== null)
+        {
+            const info = Storage.GetValue(plantNameToGet);
+            if (info === "нет информации") {
+                displayOutput(`${plantNameToGet} – ${info}`);
+            } else {
+                displayOutput(info);
+            }
+        }
+    }
+
+    function listAllPlants() {
+        const allPlants = Storage.GetKeys();
+        if (allPlants === "")
+        {
+            displayOutput("нет информации");
+        }
+        else
+        {
+            console.log("Названия всех объектов:", allPlants);
+        }
+    }
+
+
+    function displayOutput(message) {
+        document.getElementById("output").innerText = message;
+    }
+</script>
+</body>
+</html>

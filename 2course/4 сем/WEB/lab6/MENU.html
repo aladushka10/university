@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Горизонтальное меню с подменю</title>
+  <style>
+    .menu {
+      list-style: none;
+      background-color: #333;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    .menu > div {
+      position: relative;
+    }
+
+    .menu > div > a {
+      display: block;
+      padding: 20px 40px;
+      color: #fff;
+      position: relative;
+    }
+
+    .menu > div > .submenu {
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      background-color: #555;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu > div:hover > .submenu {
+      display: block;
+    }
+
+    .submenu > div {
+      display: inline-block;
+      position: relative;
+    }
+
+    .submenu > div > .submenu {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      background-color: #555;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .submenu > div:hover > .submenu {
+      display: block;
+    }
+
+    .submenu > div > a {
+      display: block;
+      padding: 10px 15px;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<div class="menu" id="mainMenu"></div>
+
+<script src = "MENU.js"></script>
+</body>
+</html>
